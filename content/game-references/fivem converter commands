@@ -1,0 +1,48 @@
+all fivem converter command 
+-------------------------
+to convert files from max payne/gta IV you need to use following commands :
+----------------------------
+
+
+FiveM Porting Codes:
+
+Models, textures and LOD:
+
+for %i in (*.w*) do @fivem formats:convert %i --game=ny
+------------------------
+
+Models with embedded collisions:
+
+for %x in (*.wbd*) do @set wbdfile=%x
+
+for %x in (*.wdr*) do @fivem formats:convert --wbd_file=%wbdfile% --game=ny %x
+-------------------------
+
+Static Collisions:
+
+for %i in (*.wbn) do @fivem formats:convert --game=ny --bound_x="location" --bound_y="location" %i
+-----------------------
+
+Generate Strings:
+
+dir /b /a-d > strings.txt
+---------------------
+
+
+how to use it ?
+-------------------
+
+just run cmd then use command "cd" to get acces to your folder (fivem.com location)
+
+eg
+--------------------
+cd desktop >cd fivem.app
+
+
+put files into fivem folder and use coomands for each files 
+
+
+note!!!!: 
+-----------------
+some files could not be converted due some technical issues 
+
