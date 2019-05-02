@@ -131,13 +131,23 @@ error to authentification
 ---------------------------------
 disable 2fa in your scocial club account then run fivem again 
 
-poolsize increase error 
+pool size increase error 
 ---------------------------------
 its just a simple issue just edit gameconfig.xml in your application data folder and increase it error tells you what to do !
 
 assertion failed !
 ---------------------------------
 happen when some antivirus/webshield block or internet fivem solution is uninstall all antivirus software or add fivem to exception or using a vpn like hide.me 
+
+FiveM freezing in queue
+---------------------------------
+We can’t solve this without information and collaboration from the server owner,
+
+My Fivem wont launch in fullscreen
+---------------------------------
+use alt+enter or change game setting 
+
+
 
 halp i have an error !
 ---------------------------------
